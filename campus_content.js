@@ -114,17 +114,17 @@ class Component extends DCLogic {
           ], '03/08'),
         live('8 de agosto', 'Encuentro 1 · Invitado/a de empresa, negocio o cultura + análisis de mercado', '08/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/yxf-iqug-ptk', new Date(2026, 7, 8)),
         lesson('10 al 14 de agosto', 'Lección', 'Lección 2 · Perfiles Tech', [], '10/08'),
-        live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Unirse al encuentro en vivo', '#', new Date(2026, 7, 15)),
+        live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/ywz-zktw-jiu', new Date(2026, 7, 15)),
       ]},
       { title: 'Módulo 2 · Proceso de Contratación', rows: [
         lesson('17 al 21 de agosto', 'Lección', 'Lección 3 · Proceso de contratación: rol, herramientas y etapas', [], '17/08'),
-        live('22 de agosto', 'Encuentro 3 · Simulación de entrevista', '22/08', 'Unirse al encuentro en vivo', '#', new Date(2026, 7, 22)),
+        live('22 de agosto', 'Encuentro 3 · Simulación de entrevista', '22/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/pwi-rifd-rct', new Date(2026, 7, 22)),
         lesson('24 al 28 de agosto', 'Lección', 'Lección 4 · Métricas y buenas prácticas', [], '24/08'),
-        live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Unirse al encuentro en vivo', '#', new Date(2026, 7, 29)),
+        live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/fwp-sbeg-qcr', new Date(2026, 7, 29)),
       ]},
       { title: 'Módulo 3 · IA & Recruitment', rows: [
         lesson('31 de agosto al 4 de septiembre', 'Lección', 'Lección 5 · IA en recruiting y en roles', [], '31/08'),
-        live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Unirse al encuentro en vivo', '#', new Date(2026, 8, 5)),
+        live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Unirse al encuentro en vivo', 'https://meet.google.com/uxz-yvbp-xnf', new Date(2026, 8, 5)),
       ]},
       { title: 'Bonus', rows: [
         live('A definir', 'Encuentro Bonus · Empleabilidad e inserción laboral como IT Recruiter', 'A definir', 'Unirse al encuentro'),

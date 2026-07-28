@@ -113,7 +113,13 @@ class Component extends DCLogic {
             { text: 'Repaso y próximos pasos', href: 'https://drive.google.com/file/d/1fmDSAOxZ9SXLrGJzSRegaFgc5vdCvF_E/view', unlockAt: new Date(2026, 7, 3) },
           ], '03/08'),
         live('8 de agosto', 'Encuentro 1 · Invitado/a de empresa, negocio o cultura + análisis de mercado', '08/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/yxf-iqug-ptk', new Date(2026, 7, 8)),
-        lesson('10 al 14 de agosto', 'Lección', 'Lección 2 · Perfiles Tech', [], '10/08'),
+        lesson('10 al 14 de agosto', 'Lección', 'Lección 2 · Perfiles Tech',
+          [
+            { text: 'Introducción de la lección', href: 'https://drive.google.com/file/d/1On7s3_Grrhxddvfhu6JlU5DPNmfkQskM/view', unlockAt: new Date(2026, 7, 10) },
+            { text: 'Ciclo de Desarrollo de Software y Metodología de Trabajo', href: 'https://drive.google.com/file/d/1fOWstQlCgORPR0H5XVVDC319wSXs-uw5/view', unlockAt: new Date(2026, 7, 10) },
+            { text: 'Analista Funcional, Arquitecto de Software y Technical Leader', href: 'https://drive.google.com/file/d/1ozhU3HFCSrkiJ-hTqcc-7GGc2HC0muTD/view', unlockAt: new Date(2026, 7, 10) },
+            { text: 'UX/UI Designer y Frontend Developer', href: 'https://drive.google.com/file/d/1ZytoMtnxT9QbzTdUmWsxlf_n0G20ayOk/view', unlockAt: new Date(2026, 7, 10) },
+          ], '10/08'),
         live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/ywz-zktw-jiu', new Date(2026, 7, 15)),
       ]},
       { title: 'Módulo 2 · Proceso de Contratación', rows: [

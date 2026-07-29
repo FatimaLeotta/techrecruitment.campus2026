@@ -120,7 +120,7 @@ class Component extends DCLogic {
             { text: 'Analista Funcional, Arquitecto de Software y Technical Leader', href: 'https://drive.google.com/file/d/1ozhU3HFCSrkiJ-hTqcc-7GGc2HC0muTD/view', unlockAt: new Date(2026, 7, 10) },
             { text: 'UX/UI Designer y Frontend Developer', href: 'https://drive.google.com/file/d/1ZytoMtnxT9QbzTdUmWsxlf_n0G20ayOk/view', unlockAt: new Date(2026, 7, 10) },
             { text: 'Backend Developer. Recap', href: 'https://drive.google.com/file/d/1_GffUzA02Bu_2RT0Oh5NDpvZjKvOUnp0/view', unlockAt: new Date(2026, 7, 10) },
-            { text: 'DevOps Engineer, Soporte y Career Path', href: 'https://drive.google.com/file/d/1Vdi5IR6_2kBNPT9fXRMbf_Biy-b2foE_/view', unlockAt: new Date(2026, 7, 10) },
+            { text: 'Tester, DevOps Engineer y Soporte. Career Path', href: 'https://drive.google.com/file/d/1Vdi5IR6_2kBNPT9fXRMbf_Biy-b2foE_/view', unlockAt: new Date(2026, 7, 10) },
           ], '10/08'),
         live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/ywz-zktw-jiu', new Date(2026, 7, 15)),
       ]},

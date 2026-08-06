@@ -125,7 +125,15 @@ class Component extends DCLogic {
         live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/ywz-zktw-jiu', new Date(2026, 7, 15)),
       ]},
       { title: 'Módulo 2 · Proceso de Contratación', rows: [
-        lesson('17 al 21 de agosto', 'Lección', 'Lección 3 · Proceso de contratación: rol, herramientas y etapas', [], '17/08'),
+        lesson('17 al 21 de agosto', 'Lección', 'Lección 3 · Proceso de contratación: rol, herramientas y etapas',
+          [
+            { text: 'Introducción a la lección', href: 'https://drive.google.com/file/d/1JuqhUbIP3_Rzq0EhWfxHFpQTBl5fgOPs/view', unlockAt: new Date(2026, 7, 17) },
+            { text: 'Qué es Talent Acquisition', href: 'https://drive.google.com/file/d/1o1BQBm1VWlGIzrI_I5wyj6kmFyFsuzfb/view', unlockAt: new Date(2026, 7, 17) },
+            { text: 'Role Profiling: qué buscar y cómo relevarlo', href: 'https://drive.google.com/file/d/1XtGwwZmCHbFflVNxE4hiSciZof-YHS54/view', unlockAt: new Date(2026, 7, 17) },
+            { text: 'Sourcing: dónde y cómo buscar', href: 'https://drive.google.com/file/d/16y-WTgL0xmZAHhIjqGFXntWVfxyaB2tV/view', unlockAt: new Date(2026, 7, 17) },
+            { text: 'Entrevistas: qué, quién y cuándo entrevistar', href: 'https://drive.google.com/file/d/1J6OH0hUj9nPGjDCSGs29Gpr5oAqJp5hO/view', unlockAt: new Date(2026, 7, 17) },
+            { text: 'Talent Discussion y Job Offer: cómo decidir y ofertar', href: 'https://drive.google.com/file/d/1ZnMi_2nbvsM88SBuMheQWiKVzuhorsFk/view', unlockAt: new Date(2026, 7, 17) },
+          ], '17/08'),
         live('22 de agosto', 'Encuentro 3 · Simulación de entrevista', '22/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/pwi-rifd-rct', new Date(2026, 7, 22)),
         lesson('24 al 28 de agosto', 'Lección', 'Lección 4 · Métricas y buenas prácticas', [], '24/08'),
         live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/fwp-sbeg-qcr', new Date(2026, 7, 29)),

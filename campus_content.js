@@ -112,7 +112,7 @@ class Component extends DCLogic {
             { text: 'Talento y modalidades de contratación', href: 'https://drive.google.com/file/d/1POgS_7Nf3VpKxqeU5xFfuM7F71eT1XXJ/view', unlockAt: new Date(2026, 7, 3) },
             { text: 'Repaso y próximos pasos', href: 'https://drive.google.com/file/d/1fmDSAOxZ9SXLrGJzSRegaFgc5vdCvF_E/view', unlockAt: new Date(2026, 7, 3) },
           ], '03/08'),
-        live('8 de agosto', 'Encuentro 1 · Invitado/a de empresa, negocio o cultura + análisis de mercado', '08/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/yxf-iqug-ptk', new Date(2026, 7, 8)),
+        live('8 de agosto', 'Encuentro 1 · Invitado/a de empresa, negocio o cultura + análisis de mercado', '08/08', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1G1-0ivmw8rOw3rvc39J6FyqxZByoBeOZ/view', new Date(2026, 7, 8)),
         lesson('10 al 14 de agosto', 'Lección', 'Lección 2 · Perfiles Tech',
           [
             { text: 'Introducción de la lección', href: 'https://drive.google.com/file/d/1On7s3_Grrhxddvfhu6JlU5DPNmfkQskM/view', unlockAt: new Date(2026, 7, 10) },

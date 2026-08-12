@@ -21,8 +21,9 @@ class Component extends DCLogic {
 
   renderVals() {
     const auto = this.weekFromToday();
-    // Si se define semanaActual como tweak manual, tiene prioridad; si no, calendario real.
-    const active = (this.props.semanaActual == null) ? auto : this.props.semanaActual;
+    // La semana activa se calcula SIEMPRE desde la fecha real de hoy,
+    // así "Tu progreso" avanza solo (y cada persona ve su semana correcta).
+    const active = auto;
 
     const meta = [
       { label: 'Inicio', value: '3 de agosto de 2026' },

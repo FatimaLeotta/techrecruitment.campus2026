@@ -123,7 +123,7 @@ class Component extends DCLogic {
             { text: 'Backend Developer. Recap', href: 'https://drive.google.com/file/d/1_GffUzA02Bu_2RT0Oh5NDpvZjKvOUnp0/view', unlockAt: new Date(2026, 7, 10) },
             { text: 'Tester, DevOps Engineer y Soporte. Career Path', href: 'https://drive.google.com/file/d/1Vdi5IR6_2kBNPT9fXRMbf_Biy-b2foE_/view', unlockAt: new Date(2026, 7, 10) },
           ], '10/08'),
-        live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/ywz-zktw-jiu', new Date(2026, 7, 15)),
+        live('15 de agosto', 'Encuentro 2 · Análisis de job postings', '15/08', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/16sOKgYS4vwih3RQRyuDWuh5PsqRzQACH/view', new Date(2026, 7, 15)),
       ]},
       { title: 'Módulo 2 · Proceso de Contratación', rows: [
         lesson('17 al 21 de agosto', 'Lección', 'Lección 3 · Proceso de contratación: rol, herramientas y etapas',

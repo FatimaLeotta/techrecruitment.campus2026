@@ -136,7 +136,14 @@ class Component extends DCLogic {
             { text: 'Talent Discussion y Job Offer: cómo decidir y ofertar', href: 'https://drive.google.com/file/d/1ZnMi_2nbvsM88SBuMheQWiKVzuhorsFk/view', unlockAt: new Date(2026, 7, 17) },
           ], '17/08'),
         live('22 de agosto', 'Encuentro 3 · Simulación de entrevista', '22/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/pwi-rifd-rct', new Date(2026, 7, 22)),
-        lesson('24 al 28 de agosto', 'Lección', 'Lección 4 · Métricas y buenas prácticas', [], '24/08'),
+        lesson('24 al 28 de agosto', 'Lección', 'Lección 4 · Métricas y buenas prácticas',
+          [
+            { text: 'Introducción de la lección', href: 'https://drive.google.com/file/d/1h7tnrwZaaInzcnWMKEove_LF0uiTdeZq/view', unlockAt: new Date(2026, 7, 24) },
+            { text: 'Términos base', href: 'https://drive.google.com/file/d/1MoNkIp35yb-qDhVy5QJU1qv2LZK9MhJI/view', unlockAt: new Date(2026, 7, 24) },
+            { text: 'Indicadores del Proceso de Contratación', href: 'https://drive.google.com/file/d/1JPZWN4CGHQK9LnokVC8GvDgiuiYhvICg/view', unlockAt: new Date(2026, 7, 24) },
+            { text: 'Cuellos de Botella y KPIs de Talent Acquisition', href: 'https://drive.google.com/file/d/1-MxIkuzVW6d1IgQeZXBJimxdeo3_aPhi/view', unlockAt: new Date(2026, 7, 24) },
+            { text: 'Reporte de Métricas de Talent Acquisition', href: 'https://drive.google.com/file/d/1SSlBEIia2qZbLGHmbKoWj8hewJVHgjd5/view', unlockAt: new Date(2026, 7, 24) },
+          ], '24/08'),
         live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/fwp-sbeg-qcr', new Date(2026, 7, 29)),
       ]},
       { title: 'Módulo 3 · IA & Recruitment', rows: [

@@ -147,7 +147,14 @@ class Component extends DCLogic {
         live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/fwp-sbeg-qcr', new Date(2026, 7, 29)),
       ]},
       { title: 'Módulo 3 · IA & Recruitment', rows: [
-        lesson('31 de agosto al 4 de septiembre', 'Lección', 'Lección 5 · IA en recruiting y en roles', [], '31/08'),
+        lesson('31 de agosto al 4 de septiembre', 'Lección', 'Lección 5 · IA en recruiting y en roles',
+          [
+            { text: 'Introducción a la lección', href: 'https://drive.google.com/file/d/1OodOHh9gylKo6JlL8mUMkohCAGGCjHyr/view', unlockAt: new Date(2026, 7, 31) },
+            { text: 'Qué es IA y roles que la construyen', href: 'https://drive.google.com/file/d/1D5vMNUPQ2z10pdxdXqkd9Bq3AVKAAyGx/view', unlockAt: new Date(2026, 7, 31) },
+            { text: 'Roles que usan IA y desafíos generacionales', href: 'https://drive.google.com/file/d/1j9olLVIbmeVXR7o30gzXzZQ70zLgl4Ou/view', unlockAt: new Date(2026, 7, 31) },
+            { text: 'Nuevos roles debido a la IA', href: 'https://drive.google.com/file/d/1fv2l_-GtnyBY-1qjwcKVl4tZGH97C-EE/view', unlockAt: new Date(2026, 7, 31) },
+            { text: 'IA para Talent Acquisition', href: 'https://drive.google.com/file/d/1TuC90uGyXu9gKD-LmFAL7uddQ07UY4Oz/view', unlockAt: new Date(2026, 7, 31) },
+          ], '31/08'),
         live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Unirse al encuentro en vivo', 'https://meet.google.com/uxz-yvbp-xnf', new Date(2026, 8, 5)),
       ]},
       { title: 'Bonus', rows: [

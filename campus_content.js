@@ -144,7 +144,7 @@ class Component extends DCLogic {
             { text: 'Cuellos de Botella y KPIs de Talent Acquisition', href: 'https://drive.google.com/file/d/1-MxIkuzVW6d1IgQeZXBJimxdeo3_aPhi/view' },
             { text: 'Reporte de Métricas de Talent Acquisition', href: 'https://drive.google.com/file/d/1SSlBEIia2qZbLGHmbKoWj8hewJVHgjd5/view' },
           ], '24/08'),
-        live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/fwp-sbeg-qcr', new Date(2026, 7, 29)),
+        live('29 de agosto', 'Encuentro 4 · Workshop de construcción de métricas', '29/08', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1hdMR_g3Ra88Q9oDKxQakfxKZFt-jiv2R/view', new Date(2026, 7, 29)),
       ]},
       { title: 'Módulo 3 · IA & Recruitment', rows: [
         lesson('31 de agosto al 4 de septiembre', 'Lección', 'Lección 5 · IA en recruiting y en roles',

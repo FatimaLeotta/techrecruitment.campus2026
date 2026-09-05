@@ -94,9 +94,20 @@ class Component extends DCLogic {
         fecha, kind: 'En vivo', leccion, disponible,
         liveLabel: label || 'Unirse al encuentro en vivo', liveHref: href || '#',
         liveLocked: locked, liveUnlocked: !locked, liveUnlockLabel: unlockLabel,
+        liveSuspended: false,
         badgeBg: 'rgba(112,27,121,0.14)', badgeFg: '#701B79', rowBg: 'rgba(112,27,121,0.035)',
       };
     };
+
+    // Encuentro suspendido: badge "SUSPENDIDA", no clickeable, sin candado ni fecha.
+    const suspended = (fecha, leccion) => ({
+      isLive: true, hasVideos: false, pending: false,
+      fecha, kind: 'En vivo', leccion, disponible: 'Suspendida',
+      liveLabel: 'SUSPENDIDA', liveHref: '#',
+      liveLocked: false, liveUnlocked: false, liveUnlockLabel: '',
+      liveSuspended: true,
+      badgeBg: 'rgba(112,27,121,0.14)', badgeFg: '#701B79', rowBg: 'rgba(112,27,121,0.035)',
+    });
 
     const groups = [
       { title: 'Presentación', rows: [
@@ -135,7 +146,7 @@ class Component extends DCLogic {
             { text: 'Entrevistas: qué, quién y cuándo entrevistar', href: 'https://drive.google.com/file/d/1J6OH0hUj9nPGjDCSGs29Gpr5oAqJp5hO/view', unlockAt: new Date(2026, 7, 17) },
             { text: 'Talent Discussion y Job Offer: cómo decidir y ofertar', href: 'https://drive.google.com/file/d/1ZnMi_2nbvsM88SBuMheQWiKVzuhorsFk/view', unlockAt: new Date(2026, 7, 17) },
           ], '17/08'),
-        live('22 de agosto', 'Encuentro 3 · Simulación de entrevista', '22/08', 'Unirse al encuentro en vivo', 'https://meet.google.com/pwi-rifd-rct', new Date(2026, 7, 22)),
+        suspended('22 de agosto', 'Encuentro 3 · Simulación de entrevista'),
         lesson('24 al 28 de agosto', 'Lección', 'Lección 4 · Métricas y buenas prácticas',
           [
             { text: 'Introducción de la lección', href: 'https://drive.google.com/file/d/1h7tnrwZaaInzcnWMKEove_LF0uiTdeZq/view' },

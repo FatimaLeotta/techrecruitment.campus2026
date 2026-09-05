@@ -155,7 +155,7 @@ class Component extends DCLogic {
             { text: 'Nuevos roles debido a la IA', href: 'https://drive.google.com/file/d/1fv2l_-GtnyBY-1qjwcKVl4tZGH97C-EE/view', unlockAt: new Date(Date.UTC(2026, 7, 29, 15, 0, 0)) },
             { text: 'IA para Talent Acquisition', href: 'https://drive.google.com/file/d/1TuC90uGyXu9gKD-LmFAL7uddQ07UY4Oz/view', unlockAt: new Date(Date.UTC(2026, 7, 29, 15, 0, 0)) },
           ], '31/08'),
-        live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Unirse al encuentro en vivo', 'https://meet.google.com/uxz-yvbp-xnf', new Date(2026, 8, 5)),
+        live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1SOdHWy_rwi5j6QsWemrn0xsKDXAjzuug/view', new Date(2026, 8, 5)),
       ]},
       { title: 'Bonus', rows: [
         live('A definir', 'Encuentro Bonus · Empleabilidad e inserción laboral como IT Recruiter', 'A definir', 'Unirse al encuentro'),

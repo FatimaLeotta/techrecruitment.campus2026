@@ -51,7 +51,7 @@ class Component extends DCLogic {
       { label: 'Lección 3', tag: 'Lección 3 · Módulo 2', title: 'Proceso de contratación: rol, herramientas y etapas', dates: '17 al 21 de agosto', live: 'Sábado 22 de agosto.' },
       { label: 'Lección 4', tag: 'Lección 4 · Módulo 2', title: 'Métricas y buenas prácticas', dates: '24 al 28 de agosto', live: 'Sábado 29 de agosto.' },
       { label: 'Lección 5', tag: 'Lección 5 · Módulo 3', title: 'IA en recruiting y en roles', dates: '31 de agosto al 4 de septiembre', live: 'Viernes 5 de septiembre.' },
-      { label: 'Bonus', tag: 'Encuentro Bonus', title: 'Empleabilidad e inserción laboral como IT Recruiter', dates: 'A definir', live: 'A definir.' },
+      { label: 'Bonus', tag: 'Encuentro Bonus', title: 'Empleabilidad e inserción laboral como IT Recruiter', dates: '2 de octubre', live: 'Viernes 2 de octubre, 16 h.' },
     ];
 
     const esta = weeks[active] || weeks[1];
@@ -169,7 +169,8 @@ class Component extends DCLogic {
         live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1SOdHWy_rwi5j6QsWemrn0xsKDXAjzuug/view', new Date(2026, 8, 5)),
       ]},
       { title: 'Bonus', rows: [
-        live('A definir', 'Encuentro Bonus · Empleabilidad e inserción laboral como IT Recruiter', 'A definir', 'Unirse al encuentro'),
+        live('2 de octubre', 'Encuentro Bonus · Empleabilidad | IT Recruiter · 1era parte', '02/10', 'Unirse al encuentro en vivo', 'https://meet.google.com/kzj-qnje-dos', new Date(2026, 9, 2)),
+        live('2 de octubre', 'Encuentro Bonus · Empleabilidad | IT Recruiter · 2da parte', '02/10', 'Unirse al encuentro en vivo', 'https://meet.google.com/zur-cpxy-kob', new Date(2026, 9, 2)),
       ]},
     ];
 

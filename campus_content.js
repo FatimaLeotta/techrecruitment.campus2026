@@ -169,8 +169,8 @@ class Component extends DCLogic {
         live('5 de septiembre', 'Encuentro 5 · Invitado/a sobre IA en HR + análisis de job postings', '05/09', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1SOdHWy_rwi5j6QsWemrn0xsKDXAjzuug/view', new Date(2026, 8, 5)),
       ]},
       { title: 'Bonus', rows: [
-        live('2 de octubre', 'Encuentro Bonus · Empleabilidad | IT Recruiter · 1era parte', '02/10', 'Unirse al encuentro en vivo', 'https://meet.google.com/kzj-qnje-dos', new Date(2026, 9, 2)),
-        live('2 de octubre', 'Encuentro Bonus · Empleabilidad | IT Recruiter · 2da parte', '02/10', 'Unirse al encuentro en vivo', 'https://meet.google.com/zur-cpxy-kob', new Date(2026, 9, 2)),
+        live('2 de octubre', 'Encuentro Bonus · Empleabilidad | IT Recruiter · 1era parte', '02/10', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1A32jfNhX23NDfSM_6L94LpSVOUmL55AE/view', new Date(2026, 9, 2)),
+        live('2 de octubre', 'Encuentro Bonus · Empleabilidad | IT Recruiter · 2da parte', '02/10', 'Acceder a la grabación del encuentro en vivo', 'https://drive.google.com/file/d/1f_1l6YP9TaxazxNnCrrUkAemNQCQr7JR/view', new Date(2026, 9, 2)),
       ]},
     ];
 
@@ -189,6 +189,8 @@ class Component extends DCLogic {
       { icon: '💬', title: 'Grupo de WhatsApp', hint: 'Comunidad y soporte diario', href: '#' },
       { icon: '📜', title: 'Certificado de participación', hint: 'Al finalizar el curso', href: '#' },
       { icon: '🎥', title: 'Grabaciones de los encuentros', hint: 'Disponibles durante 6 meses', href: '#' },
+      { icon: '📊', title: 'Matriz de experiencia laboral', hint: 'Plantilla del Bonus · hacé tu propia copia', href: 'https://docs.google.com/spreadsheets/d/19g0sLrvbh3sGAUbQbwzvYnn2Iw3XYP5FrgNVF6vrHOQ/copy' },
+      { icon: '🤖', title: 'Proyecto de Claude para tu CV', hint: 'Armá tu CV de IT Recruiter adaptado con IA', href: 'https://docs.google.com/document/d/1Bf5YFaydJVR715vNWPvCG5psPq4ciGUm6UPr3fQP1GI/copy' },
     ];
 
     return { meta, funciona, esta, steps, rows, recursos };
